@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reti</title>
+    <link rel="stylesheet" href="../css/esercizio.css">
+</head>
+
+<body>
+    <h1 id="titolo">Questionario di raccolta dati per creare una rete</h1>
+    <p id="inizio">
+        i dati indicati di seguito sono alcuni di quelli necessari da raccogliere prima di mettersi alle prese con la realizzazione di un arete. <br> è in ptimo luogo necessario capire le funzioni della rete, a cosa è dedicata? Quanto deve essere grande?
+        sappiamo già che ci sarà un solo modem/router? Oppure serve qualcosa d più complesso? Quindi è necessario capire quanti e quali sono i device che apparterranno alla rete? Quali sno le caratteristiche di questi device? infine una volta raccolti
+        tutti i dati si può finalmente partire con la progetttazione della rete
+    </p>
+
+    <div id="container">
+        <form action="">
+            <!--Inizio step 1-->
+            <div class="step" id="s1">
+                <p>Step 1: Dati della rete</p>
+                <div class="riga" id="nome">
+                    <label for="name">
+                        Nome e cognome del responsabile: 
+
+                    </label>
+                    <span></span>
+                    <input type="text" placeholder="nome e cognome" name="name" id="name" required>
+                </div>
+                <div class="riga" id="2">
+                    <label for="indirizzo">
+                        Indirizzo
+                    </label>
+                    <span></span>
+                    <input type="text" placeholder="Indirizzo" name="indirizzo" id="indirizzo" required>
+                </div>
+                <div class="riga" id="3">
+                    <label for="sedi">
+                        Numero delle sedi dell'azienda
+                    </label>
+                    <span></span>
+                    <input type="text" placeholder="sedi" name="sedi" id="sedi" required>
+                </div>
+                <div class="riga" id="4">
+                    <label for="data">
+                        Numero delle sedi dell'azienda
+                    </label>
+                    <span></span>
+                    <input type="date" placeholder="gg/mm/yyyy" name="data" id="data" required>
+                </div>
+            </div>
+            <!--Inizio Step 2-->
+            <div class="step" id="s2">
+                <p>Step 2: Dimensioni della rete</p>
+                <div class="riga" id="5">
+                    <label for="lan">LAN</label>
+                    <input type="checkbox" id="lan" name="lan">
+                </div>
+                <div class="riga" id="6">
+                    <label for="man">MAN</label>
+                    <input type="checkbox" id="man" name="man">
+                </div>
+                <div class="riga" id="7">
+                    <label for="wan">WAN</label>
+                    <input type="checkbox" id="wan" name="wan">
+                </div>
+                <div class="riga" id="8">
+                    <label for="lan">Altro</label>
+                    <input type="text" id="altro" name="altro" placeholder="Specificare">
+                </div>
+            </div>
+            <!--Inizio Step 3-->
+            <div class="step" id="s3">
+                <p>Step 3: è già nota la forma della rete? (topologia)</p>
+                <div class="riga" id="9">
+                    <label for="stella">A stella</label>
+                    <input type="radio" id="stella" name="bus">
+                </div>
+                <div class="riga" id="10">
+                    <label for="bus">A bus</label>
+                    <input type="radio" id="bus" name="bus">
+                </div>
+                <div class="riga" id="11">
+                    <label for="albero">Ad albero</label>
+                    <input type="radio" id="albero" name="bus">
+                </div>
+                <div class="riga" id="12">
+                    <label for="lan">Altro</label>
+                    <input type="text" id="altroBus" name="bus" placeholder="Specificare">
+                </div>
+            </div>
+            <!--Inizio step 4-->
+            <div class="step" id="s4">
+                <p>Step 4: Caratteristiche del PC</p>
+                <div class="riga" id="label">
+                    <p>Recupera tutti i dati de tuo PC</p>
+                </div>
+                <div class="riga" id="13">
+                    <label for="cpu">
+                        Processore
+                    </label>
+                    <span></span>
+                    <input type="text" placeholder="Processore" name="cpu" id="cpu" required>
+                </div>
+                <div class="riga" id="14">
+                    <label for="ram">
+                        RAM
+                    </label>
+                    <span></span>
+                    <input type="text" placeholder="RAM" name="ram" id="ram" required>
+                </div>
+                <div class="riga" id="15">
+                    <label for="c">
+                        C
+                    </label>
+                    <span></span>
+                    <input type="text" placeholder="C" name="c" id="C" required>
+                </div>
+                <div class="riga" id="16">
+                    <label for="d">
+                        D
+                    </label>
+                    <span></span>
+                    <input type="text" placeholder="D" name="d" id="D" required>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

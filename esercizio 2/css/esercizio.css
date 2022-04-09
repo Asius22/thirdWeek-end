@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(160, 204, 94);
+    padding: 10px;
+}
+
+#container {
+    background-color: #9cbc2b;
+    border: none;
+    border-radius: 3px;
+    margin: 20px 20px;
+}
+
+.step {
+    color: #344a00;
+    margin: 20px;
+    font-size: larger;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.riga {
+    padding: 16px;
+    font-size: medium;
+    background-color: #bad06c;
+    border: 2px solid #e1f59e;
+    border-radius: 10px;
+    align-items: baseline;
+    margin-top: 4px;
+}
+
+.riga input,
+.riga label {
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+label {
+    margin-right: 30px;
+}
+
+.riga input {
+    width: 200px;
+    margin-left: 30px;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.riga span {
+    display: inline-block;
+    white-space: nowrap;
+    width: 140px;
+}
+
+#titolo,
+#inizio {
+    margin: 20px 20px;
+}
