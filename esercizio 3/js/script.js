@@ -1,0 +1,7 @@
+const validateForm = () => {
+
+}
+
+const validateName = () => {
+
+}
